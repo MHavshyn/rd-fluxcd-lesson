@@ -11,7 +11,7 @@ spec:
     tag: v1.5.0
   ignore: |
     /*
-    !/manifests/
+    !/manifests/dragonfly-operator.yaml
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
